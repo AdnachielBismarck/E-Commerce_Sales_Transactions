@@ -41,15 +41,19 @@ from plots import (
 )
 
 # Configuracion inicial
-st.set_page_config(page_title="Dashboard E-commerce", page_icon="📊", layout="wide")
+st.set_page_config(
+    page_title="Dashboard E-commerce",
+    page_icon="📊",
+    layout="wide",
+    initial_sidebar_state="collapsed"  # Barra colapsada al inicio
+)
 setup_plot_style()
 
-# Ocultar elementos por defecto de Streamlit
+# Ocultar elementos por defecto de Streamlit (NO ocultar el header)
 hide_streamlit_style = """
             <style>
             #MainMenu {visibility: hidden;}
             footer {visibility: hidden;}
-            header {visibility: hidden;}
             </style>
             """
 st.markdown(hide_streamlit_style, unsafe_allow_html=True)
