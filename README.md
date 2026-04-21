@@ -1,5 +1,13 @@
 # 📊 Dashboard de Análisis de E-commerce
 
+## 🌐 Aplicación en vivo
+
+[**Ver Dashboard en Streamlit Cloud**](https://e-commercesalestransactions-efaxnj9hmubycuqvd8fvxe.streamlit.app)
+
+[![Streamlit App](https://static.streamlit.io/badges/streamlit_badge_black_white.svg)](https://e-commercesalestransactions-efaxnj9hmubycuqvd8fvxe.streamlit.app)
+
+---
+
 ## 📋 Descripción del Proyecto
 Este proyecto presenta un análisis integral de un negocio de e-commerce, evaluando aspectos financieros, logísticos, comerciales y de comportamiento del cliente.
 
@@ -15,5 +23,3 @@ Este proyecto presenta un análisis integral de un negocio de e-commerce, evalua
 - Pandas/NumPy (Procesamiento de datos)
 - Scikit-learn (Clustering)
 - Matplotlib/Seaborn (Visualizaciones)
-
-## 📁 Estructura del Proyecto
